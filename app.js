@@ -1,13 +1,19 @@
-var fila = [1,2,3,4];
+var squad = {
+nombre1:'Karen',
+nombre2: 'Abi',
+nombre3: 'Adrix',
+nombre4: 'Karina',
+nombre5: 'Dani',
+nombre6: 'Brenda',
+nombre7: 'Ebe',
+caracteristicasEbe: { altura: 1.60,
+                      edad: 23,
+                      colorPlayera: 'blanco',
+                    },
+frutasPreferidas : ['manzana','jicama','piñ a'],
+saludar: function(){
+  alert('hola a todas');
+}
+}
 
-fila.push(5); // agrega el elemento al final
-document.write(fila);
-
-fila.shift(); // quita el primer elemento del arreglo
-document.write(fila);
-
-fila.push('hola');
-document.write(fila);
-
-fila.unshift('perrito'); // agrega un elemento al principio del arreglo
-document.write(fila);
+console.log(Object.keys(squad));
