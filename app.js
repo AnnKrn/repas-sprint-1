@@ -1,7 +1,7 @@
-var fila = (1,2,3,4,5);
+var fila = [1,2,3,4];
 
 fila.push(5);
 
-//fila.shift();
+fila.shift();
 
 document.write(fila);
